@@ -93,7 +93,26 @@ h6 {
   height: 60px;
   animation: animate-preloader 1s linear infinite;
 }
-
+.btn
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: var(--skin-color);
+}
+.btn:hover 
+{
+    transition: 0.3s;
+    box-shadow: var(--skin-color) 0px 0px 50px;
+    font-size: 20px;
+    background-color: #302e4d;
+    transform: scale(1.05);
+}
 @keyframes animate-preloader {
   0% {
     transform: rotate(0deg);
